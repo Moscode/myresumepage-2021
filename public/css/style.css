@@ -1,0 +1,560 @@
+@import url(https://fonts.googleapis.com/css?family=Varela+Round);
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700);
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  margin: 0%;
+  padding: 0%;
+  font-family: "Open Sans", sans-serif;
+  font-size: 16px;
+  line-height: 1.5em;
+  width: 100%;
+}
+
+a {
+  color: #66cc99;
+  text-decoration: none;
+}
+
+.clearfix::after,
+.clearfix::before {
+  content: " ";
+  display: table;
+}
+
+.clearfix::after {
+  clear: both;
+}
+
+.bold {
+  color: #4a4e51;
+  font-weight: 400;
+}
+
+.resume-wrapper {
+  position: relative;
+  text-align: center;
+  height: 100%;
+  margin-bottom: 10%;
+  margin-top: -10%;
+  max-height: 150vh;
+}
+
+.container {
+  max-height: 150vh;
+}
+
+.profile {
+  background: #fff;
+  float: left;
+  color: #9099a0;
+  width: 34%;
+}
+@media (max-width: 850px) {
+  .profile {
+    width: 100%;
+  }
+}
+.profile .name-wrapper {
+  float: left;
+  width: 60%;
+}
+.profile h1 {
+  font-size: 2em;
+  text-align: left;
+  font-family: "Varela Round", sans-serif;
+  color: #4a4e51;
+  text-transform: uppercase;
+  line-height: 1em;
+  padding-top: 50px;
+}
+@media (max-width: 1200px) {
+  .profile h1 {
+    padding-top: 20px;
+  }
+}
+@media (max-width: 450px) {
+  .profile h1 {
+    font-size: 1.8em;
+    padding-top: 20px;
+  }
+}
+.profile li {
+  margin-bottom: 10px;
+  max-height: 150vh;
+}
+.profile .picture-resume-wrapper {
+  width: 40%;
+  display: block;
+  float: left;
+}
+@media (max-width: 1200px) {
+  .profile .picture-resume-wrapper {
+    width: 100%;
+  }
+}
+.profile .picture-resume {
+  width: 220px;
+  height: 220px;
+  background-size: cover;
+  border-radius: 50%;
+  margin-right: 0px;
+  display: table;
+  position: relative;
+  vertical-align: middle;
+}
+.profile .picture-resume span {
+  display: table-cell;
+  vertical-align: middle;
+  position: relative;
+  margin: 0 auto;
+  z-index: 10;
+  text-align: center;
+}
+.profile .picture-resume img {
+  border-radius: 50%;
+  width: 150px;
+}
+@media (max-width: 1500px) {
+  .profile .picture-resume {
+    width: 150px;
+    height: 150px;
+  }
+}
+@media (max-width: 1200px) {
+  .profile .picture-resume {
+    width: 200px;
+    height: 200px;
+  }
+}
+@media (max-width: 450px) {
+  .profile .picture-resume {
+    width: 180px;
+    height: 180px;
+  }
+}
+
+.profile .contact-info {
+  margin-top: 100px;
+  font-weight: 300;
+}
+@media (max-width: 1200px) {
+  .profile .contact-info {
+    margin-top: 70px;
+  }
+}
+@media (max-width: 450px) {
+  .profile .contact-info {
+    margin-top: 50px;
+  }
+}
+.profile .list-titles {
+  float: left;
+  text-align: left;
+  font-weight: 600;
+  width: 40%;
+  color: #4a4e51;
+}
+.profile .list-content {
+  float: left;
+  width: 60%;
+  text-align: left;
+  font-weight: 300;
+}
+.profile .contact-presentation {
+  text-align: left;
+  font-weight: 300;
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+@media (max-width: 1200px) {
+  .profile .contact-presentation {
+    margin-top: 70px;
+    margin-bottom: 70px;
+  }
+}
+@media (max-width: 850px) {
+  .profile .contact-presentation {
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+}
+
+.experience {
+  background: #3d3e42;
+  float: left;
+  position: relative;
+  color: #9099a0;
+  font-weight: 300;
+  width: 66%;
+  margin-bottom: 80px;
+}
+@media (max-width: 850px) {
+  .experience {
+    width: 100%;
+    max-height: 300vh;
+  }
+}
+.experience h3.experience-title {
+  color: #66cc99;
+  text-align: left;
+  text-transform: uppercase;
+  font-size: 1.2em;
+  margin-bottom: 20px;
+  font-weight: 400;
+}
+.experience .company-wrapper {
+  width: 30%;
+  float: left;
+  text-align: left;
+  padding-right: 5%;
+  margin-bottom: 60px;
+}
+@media (max-width: 450px) {
+  .experience .company-wrapper {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+}
+.experience .job-wrapper {
+  width: 70%;
+  float: left;
+  text-align: left;
+  padding-right: 5%;
+  margin-bottom: 60px;
+}
+@media (max-width: 450px) {
+  .experience .job-wrapper {
+    width: 100%;
+    margin-bottom: 40px;
+  }
+}
+.experience .experience-title {
+  color: white;
+  margin-bottom: 15px;
+}
+
+.section-padding {
+  padding: 60px 60px 40px 40px;
+}
+@media (max-width: 850px) {
+  .section-padding {
+    padding: 80px 15% 40px 10%;
+  }
+}
+@media (max-width: 450px) {
+  .section-padding {
+    padding: 40px 10% 20px 5%;
+  }
+}
+
+.section-wrapper {
+  width: 50%;
+  float: left;
+  text-align: left;
+  color: #9099a0;
+  font-weight: 300;
+  margin-bottom: 20px;
+}
+@media (max-width: 450px) {
+  .section-wrapper {
+    width: 100%;
+  }
+}
+.section-wrapper:nth-child(3) {
+  padding-right: 8%;
+}
+.section-wrapper h3.section-title {
+  color: #66cc99;
+  text-align: left;
+  text-transform: uppercase;
+  font-size: 1.2em;
+  margin-bottom: 20px;
+  font-weight: 400;
+}
+.section-wrapper .skill-percentage {
+  margin-bottom: 10px;
+  position: relative;
+}
+.section-wrapper .skill-percentage::after {
+  content: "";
+  width: 100%;
+  height: 6px;
+  background: #4a4e51;
+  display: block;
+  margin-top: 3px;
+}
+.section-wrapper .skill-percentage::before {
+  content: "";
+  height: 6px;
+  background: #66cc99;
+  position: absolute;
+  margin-top: 3px;
+  bottom: 0;
+}
+.section-wrapper .skill-percentage:nth-child(1)::before {
+  width: 90%;
+  -webkit-animation: skill_1 0.6s ease;
+  animation: skill_1 0.6s ease;
+}
+.section-wrapper .skill-percentage:nth-child(2)::before {
+  width: 70%;
+  -webkit-animation: skill_2 0.6s ease;
+  animation: skill_2 0.6s ease;
+}
+.section-wrapper .skill-percentage:nth-child(3)::before {
+  width: 80%;
+  -webkit-animation: skill_3 0.6s ease;
+  animation: skill_3 0.6s ease;
+}
+.section-wrapper .skill-percentage:nth-child(4)::before {
+  width: 60%;
+  -webkit-animation: skill_4 0.6s ease;
+  animation: skill_4 0.6s ease;
+}
+.section-wrapper .skill-percentage:nth-child(5)::before {
+  width: 40%;
+  -webkit-animation: skill_5 0.6s ease;
+  animation: skill_5 0.6s ease;
+}
+
+@-webkit-keyframes skill_1 {
+  from {
+    width: 0%;
+  }
+  to {
+    width: 80%;
+  }
+}
+
+@keyframes skill_1 {
+  from {
+    width: 0%;
+  }
+  to {
+    width: 80%;
+  }
+}
+@-webkit-keyframes skill_2 {
+  from {
+    width: 0%;
+  }
+  to {
+    width: 90%;
+  }
+}
+@keyframes skill_2 {
+  from {
+    width: 0%;
+  }
+  to {
+    width: 90%;
+  }
+}
+@-webkit-keyframes skill_3 {
+  from {
+    width: 0%;
+  }
+  to {
+    width: 50%;
+  }
+}
+@keyframes skill_3 {
+  from {
+    width: 0%;
+  }
+  to {
+    width: 50%;
+  }
+}
+@-webkit-keyframes skill_4 {
+  from {
+    width: 0%;
+  }
+  to {
+    width: 60%;
+  }
+}
+@keyframes skill_4 {
+  from {
+    width: 0%;
+  }
+  to {
+    width: 60%;
+  }
+}
+@-webkit-keyframes skill_5 {
+  from {
+    width: 0%;
+  }
+  to {
+    width: 70%;
+  }
+}
+@keyframes skill_5 {
+  from {
+    width: 0%;
+  }
+  to {
+    width: 70%;
+  }
+}
+
+/*Contact Page Section*/
+body {
+  background-color: #444442;
+  padding-top: 85px;
+}
+
+div#contact-id {
+  margin-top: 700px;
+  clear: both;
+}
+
+@media (max-width: 850px) {
+  div#contact-id {
+    margin-top: 1700px;
+    clear: both;
+  }
+}
+
+@media (max-width: 600px) {
+  div#contact-id {
+    margin-top: 2000px;
+    clear: both;
+  }
+}
+
+h1 {
+  margin-top: 50px;
+  font-family: "Poppins", sans-serif, "arial";
+  font-weight: 600;
+  font-size: 50px;
+  color: white;
+  text-align: center;
+  text-align: center;
+}
+
+h4 {
+  font-family: "Roboto", sans-serif, "arial";
+  font-weight: 400;
+  font-size: 20px;
+  color: #9b9b9b;
+  line-height: 1.5;
+  text-align: center;
+  text-align: center;
+}
+
+input:focus ~ label,
+textarea:focus ~ label,
+input:valid ~ label,
+textarea:valid ~ label {
+  font-size: 0.75em;
+  color: #999;
+  top: -5px;
+  -webkit-transition: all 0.225s ease;
+  transition: all 0.225s ease;
+}
+
+.styled-input {
+  width: 80%;
+  margin: 0.5rem 0%;
+  position: relative;
+  border-radius: 4px;
+}
+
+@media (min-width: 600px) {
+  .styled-input {
+    margin-left: 18%;
+  }
+}
+
+.styled-input label {
+  color: #999;
+  padding: 1.3rem 30px 1rem 30px;
+  position: absolute;
+  top: 10px;
+  left: 0;
+  -webkit-transition: all 0.25s ease;
+  transition: all 0.25s ease;
+  pointer-events: none;
+}
+
+input:focus ~ span,
+textarea:focus ~ span {
+  width: 100%;
+  -webkit-transition: all 0.075s ease;
+  transition: all 0.075s ease;
+}
+
+input,
+textarea {
+  padding: 30px;
+  border: 0;
+  width: 80%;
+  font-size: 1rem;
+  background-color: #2d2d2d;
+  color: white;
+  border-radius: 4px;
+}
+
+input:focus,
+textarea:focus {
+  outline: 0;
+}
+
+textarea {
+  min-height: 15em;
+}
+
+input:focus ~ span,
+textarea:focus ~ span {
+  width: 100%;
+  -webkit-transition: all 0.075s ease;
+  transition: all 0.075s ease;
+}
+
+.input-container {
+  max-width: 60%;
+  margin: 20px auto 25px auto;
+}
+
+.submit-btn {
+  padding: 7px 35px;
+  border-radius: 60px;
+  background-color: #66cc99;
+  color: white;
+  font-size: 18px;
+  box-shadow: 0 2px 5px 0 #0000000f, 0 2px 10px 0 rgba(0, 0, 0, 0.07);
+  -webkit-transition: all 300ms ease;
+  transition: all 300ms ease;
+  width: 80%;
+  max-width: 75%;
+  text-align: center;
+}
+
+@media (min-width: 600px) {
+  .submit-btn {
+    margin-left: 19%;
+  }
+}
+
+@media (min-width: 800px) {
+  .submit-btn {
+    margin-left: 15%;
+  }
+}
+
+.submit-btn:hover {
+  transform: translateY(1px);
+  box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.1), 0 1px 1px 0 rgba(0, 0, 0, 0.09);
+}
