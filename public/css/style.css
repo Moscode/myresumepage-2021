@@ -202,7 +202,7 @@ a {
 @media (max-width: 850px) {
   .experience {
     width: 100%;
-    max-height: 300vh;
+    max-height: 80%;
   }
 }
 .experience h3.experience-title {
