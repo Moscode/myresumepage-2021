@@ -25,13 +25,14 @@ contactForm.addEventListener('submit', (e)=>{
     httpRequest.onload = function(){
         console.log(httpRequest.responseText);
         if(httpRequest.responseText = "success"){
+            feedback.innerHTML = `Thanks for reaching out to me, I will get back to you soon through ${email.value}`;
             name.value = " ";
             email.value = " ";
             phoneNumber.value = " ";
             subject.value = " ";
             message.value = " ";
         }else{
-            feedback.innerHTML = "Something went wrong";
+            feedback.innerHTML = "Something went wrong try again or call my number";
         }
     }
     
