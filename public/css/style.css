@@ -189,6 +189,7 @@ a {
   }
 }
 
+/* Experience Section Style */
 .experience {
   background: #3d3e42;
   float: left;
@@ -409,7 +410,10 @@ a {
   }
 }
 
-/*Contact Page Section*/
+
+
+
+/*Contact Page Section Style*/
 body {
   background-color: #444442;
   padding-top: 85px;
